@@ -1,0 +1,627 @@
+2024-11-22 19:08:29,145 [   6709]   WARN - #c.i.s.ComponentManagerImpl - `preload=NOT_HEADLESS` must be used only for core services (service=com.jetbrains.rdserver.toolWindow.BackendServerToolWindowManager, plugin=com.jetbrains.codeWithMe)
+2024-11-22 19:08:29,145 [   6709]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.users.BackendUserManager, plugin=com.jetbrains.codeWithMe)
+2024-11-22 19:08:29,145 [   6709]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.ports.CwmPortForwardingToolWindowManager, plugin=com.jetbrains.codeWithMe)
+2024-11-22 19:08:29,145 [   6709]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.FollowMeManagerService, plugin=com.jetbrains.codeWithMe)
+2024-11-22 19:08:31,758 [   9322]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.GotItTooltip.<init>(GotItTooltip.kt:94)
+2024-11-22 19:08:36,956 [  14520] SEVERE - #c.i.c.d.i.PassExecutorService - null
+com.intellij.openapi.progress.IndicatorCancellationException
+	at com.intellij.openapi.progress.ContextKt$cancelWithIndicator$1.invokeSuspend(context.kt:135)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:111)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:99)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+Caused by: com.intellij.openapi.progress.ProcessCanceledException
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.throwIfCanceled(AbstractProgressIndicatorBase.java:172)
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.checkCanceled(AbstractProgressIndicatorBase.java:162)
+	at com.intellij.codeInsight.daemon.impl.DaemonProgressIndicator.checkCanceled(DaemonProgressIndicator.java:111)
+	at com.intellij.openapi.progress.ContextKt$cancelWithIndicator$1.invokeSuspend(context.kt:131)
+	... 8 more
+2024-11-22 19:08:40,669 [  18233]   WARN - org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint - Unsupported notification method: @/tailwindCSS/projectInitialized
+2024-11-22 19:08:49,455 [  27019]   WARN - #c.i.u.a.JBAnimator - Animator is already disposed
+2024-11-22 19:08:49,509 [  27073]   WARN - org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint - Unsupported notification method: @/tailwindCSS/projectsDestroyed
+2024-11-22 19:08:49,731 [  27295]   WARN - #c.i.s.ComponentManagerImpl - `preload=NOT_HEADLESS` must be used only for core services (service=com.jetbrains.rdserver.toolWindow.BackendServerToolWindowManager, plugin=com.jetbrains.codeWithMe)
+2024-11-22 19:08:49,731 [  27295]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.users.BackendUserManager, plugin=com.jetbrains.codeWithMe)
+2024-11-22 19:08:49,731 [  27295]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.ports.CwmPortForwardingToolWindowManager, plugin=com.jetbrains.codeWithMe)
+2024-11-22 19:08:49,731 [  27295]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.FollowMeManagerService, plugin=com.jetbrains.codeWithMe)
+2024-11-22 19:08:50,334 [  27898]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.jcef.JBCefOsrComponent.<init>(JBCefOsrComponent.java:52)
+2024-11-22 19:08:52,375 [  29939]   WARN - #org.intellij.plugins.markdown.ui.preview.jcef.impl.JcefBrowserPipeImpl - No subscribers for documentReady!
+Attached data: 
+2024-11-22 19:08:59,479 [  37043] SEVERE - #c.i.i.shutdown - IdeaLoggingEvent[message=Project Project(name=frontend, containerState=COMPONENT_CREATED, componentStore=/home/ayden/Documents/dev/das/frontend): scope was not completed in 10s, throwable=java.lang.Throwable
+	at com.intellij.idea.IdeaLogger.error(IdeaLogger.java:130)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:388)
+	at com.intellij.ide.ShutdownKt$cancelAndTryJoin$5$dumpJob$1.invokeSuspend(shutdown.kt:126)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+]
+2024-11-22 19:09:08,530 [  46094]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.GotItTooltip.<init>(GotItTooltip.kt:94)
+2024-11-22 19:09:31,827 [  69391]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.GotItTooltip.<init>(GotItTooltip.kt:94)
+2024-11-22 19:09:51,577 [  89141]   WARN - #c.i.e.p.OSProcessHandler - Process has been already terminated: /home/ayden/.nvm/versions/node/v22.11.0/bin/node /home/ayden/Documents/app-images/WebStorm/plugins/vuejs/vue-language-server/bin/vue-language-server.js --stdio
+2024-11-22 19:12:03,958 [ 221522]   WARN - #c.i.e.p.OSProcessHandler - Process has been already terminated: /home/ayden/.nvm/versions/node/v22.11.0/bin/node /home/ayden/Documents/app-images/WebStorm/plugins/vuejs/vue-language-server/bin/vue-language-server.js --stdio
+2024-11-22 19:13:08,105 [ 285669]   WARN - #c.i.e.p.OSProcessHandler - Process has been already terminated: /home/ayden/.nvm/versions/node/v22.11.0/bin/node /home/ayden/Documents/app-images/WebStorm/plugins/vuejs/vue-language-server/bin/vue-language-server.js --stdio
+2024-11-22 19:14:02,227 [ 339791]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: loaded meta data with 16 key-value pairs and 57 tensors from /home/ayden/.cache/JetBrains/WebStorm2024.3/full-line/models/97631069-0ad6-320f-a611-0d0771f5fc9e/flcc.model (version GGUF V3 (latest))
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv   0:                       general.architecture str              = llama
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv   1:                               general.name str              = Pytorch_Model.Bin
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv   2:                         general.size_label str              = 111M
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv   3:                           llama.vocab_size u32              = 16384
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv   4:                       llama.context_length u32              = 1536
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv   5:                     llama.embedding_length u32              = 1024
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv   6:                          llama.block_count u32              = 6
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv   7:                  llama.feed_forward_length u32              = 2816
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv   8:                 llama.rope.dimension_count u32              = 128
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv   9:                 llama.attention.head_count u32              = 8
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv  10:              llama.attention.head_count_kv u32              = 8
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv  11:     llama.attention.layer_norm_rms_epsilon f32              = 0.000001
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv  12:                       llama.rope.freq_base f32              = 10000.000000
+
+2024-11-22 19:14:02,228 [ 339792]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv  13:                          general.file_type u32              = 15
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv  14:                       tokenizer.ggml.model str              = no_vocab
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - kv  15:               general.quantization_version u32              = 2
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - type  f32:   13 tensors
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - type q4_K:   39 tensors
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_model_loader: - type q6_K:    5 tensors
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: format           = GGUF V3 (latest)
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: arch             = llama
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: vocab type       = no vocab
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_vocab          = 16384
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_merges         = 0
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: vocab_only       = 0
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_ctx_train      = 1536
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_embd           = 1024
+
+2024-11-22 19:14:02,229 [ 339793]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_layer          = 6
+
+2024-11-22 19:14:02,230 [ 339794]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_head           = 8
+
+2024-11-22 19:14:02,230 [ 339794]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_head_kv        = 8
+
+2024-11-22 19:14:02,230 [ 339794]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_rot            = 128
+
+2024-11-22 19:14:02,230 [ 339794]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_swa            = 0
+
+2024-11-22 19:14:02,230 [ 339794]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_embd_head_k    = 128
+
+2024-11-22 19:14:02,230 [ 339794]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_embd_head_v    = 128
+
+2024-11-22 19:14:02,230 [ 339794]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_gqa            = 1
+
+2024-11-22 19:14:02,230 [ 339794]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_embd_k_gqa     = 1024
+
+2024-11-22 19:14:02,230 [ 339794]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_embd_v_gqa     = 1024
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: f_norm_eps       = 0.0e+00
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: f_norm_rms_eps   = 1.0e-06
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: f_clamp_kqv      = 0.0e+00
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: f_max_alibi_bias = 0.0e+00
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: f_logit_scale    = 0.0e+00
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_ff             = 2816
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_expert         = 0
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_expert_used    = 0
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: causal attn      = 1
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: pooling type     = 0
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: rope type        = 0
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: rope scaling     = linear
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: freq_base_train  = 10000.0
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: freq_scale_train = 1
+
+2024-11-22 19:14:02,231 [ 339795]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: n_ctx_orig_yarn  = 1536
+
+2024-11-22 19:14:02,232 [ 339796]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: rope_finetuned   = unknown
+
+2024-11-22 19:14:02,232 [ 339796]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: ssm_d_conv       = 0
+
+2024-11-22 19:14:02,232 [ 339796]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: ssm_d_inner      = 0
+
+2024-11-22 19:14:02,232 [ 339796]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: ssm_d_state      = 0
+
+2024-11-22 19:14:02,232 [ 339796]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: ssm_dt_rank      = 0
+
+2024-11-22 19:14:02,232 [ 339796]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: ssm_dt_b_c_rms   = 0
+
+2024-11-22 19:14:02,232 [ 339796]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: model type       = ?B
+
+2024-11-22 19:14:02,233 [ 339797]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: model ftype      = Q4_K - Medium
+
+2024-11-22 19:14:02,233 [ 339797]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: model params     = 110.64 M
+
+2024-11-22 19:14:02,233 [ 339797]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: model size       = 65.45 MiB (4.96 BPW) 
+
+2024-11-22 19:14:02,233 [ 339797]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: general.name     = Pytorch_Model.Bin
+
+2024-11-22 19:14:02,233 [ 339797]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_print_meta: max token length = 0
+
+2024-11-22 19:14:02,233 [ 339797]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_tensors: ggml ctx size =    0.03 MiB
+
+2024-11-22 19:14:02,267 [ 339831]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llm_load_tensors:        CPU buffer size =    65.45 MiB
+
+2024-11-22 19:14:02,267 [ 339831]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - ..........................................
+
+2024-11-22 19:14:02,267 [ 339831]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model: n_ctx      = 4608
+
+2024-11-22 19:14:02,267 [ 339831]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model: n_batch    = 1536
+
+2024-11-22 19:14:02,267 [ 339831]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model: n_ubatch   = 512
+
+2024-11-22 19:14:02,267 [ 339831]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model: flash_attn = 0
+
+2024-11-22 19:14:02,267 [ 339831]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model: freq_base  = 10000.0
+
+2024-11-22 19:14:02,268 [ 339832]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model: freq_scale = 1
+
+2024-11-22 19:14:02,291 [ 339855]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_kv_cache_init:        CPU KV buffer size =   108.00 MiB
+
+2024-11-22 19:14:02,291 [ 339855]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model: KV self size  =  108.00 MiB, K (f16):   54.00 MiB, V (f16):   54.00 MiB
+
+2024-11-22 19:14:02,291 [ 339855]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model:        CPU  output buffer size =     0.06 MiB
+
+2024-11-22 19:14:02,293 [ 339857]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model:        CPU compute buffer size =    89.01 MiB
+
+2024-11-22 19:14:02,293 [ 339857]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model: graph nodes  = 198
+
+2024-11-22 19:14:02,293 [ 339857]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - llama_new_context_with_model: graph splits = 1
+
+2024-11-22 19:15:44,650 [ 442214]   WARN - org.apache.velocity.deprecation - configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2024-11-22 19:15:44,651 [ 442215]   WARN - org.apache.velocity.deprecation - configuration key 'includes.resource.loader.instance' has been deprecated in favor of 'resource.loader.includes.instance'
+2024-11-22 19:19:53,955 [ 691519]   WARN - #c.i.e.p.OSProcessHandler - Process has been already terminated: /home/ayden/.nvm/versions/node/v22.11.0/bin/node /home/ayden/Documents/app-images/WebStorm/plugins/vuejs/vue-language-server/bin/vue-language-server.js --stdio
+2024-11-22 19:20:41,943 [ 739507]   WARN - org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint - Unsupported notification method: @/tailwindCSS/projectInitialized
+2024-11-22 20:03:23,007 [3300571] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 10 >= 10
+2024-11-22 20:03:23,008 [3300572] SEVERE - com.jediterm.terminal.model.TerminalTextBuffer - Attempt to get line out of bounds: 10 >= 10
+2024-11-22 20:04:52,531 [3390095]   WARN - org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint - Unsupported notification method: @/tailwindCSS/projectInitialized
+2024-11-22 20:04:53,194 [3390758]   WARN - #c.i.e.p.OSProcessHandler - Process has been already terminated: /home/ayden/.nvm/versions/node/v22.11.0/bin/node /home/ayden/Documents/app-images/WebStorm/plugins/vuejs/vue-language-server/bin/vue-language-server.js --stdio
+2024-11-22 20:05:22,262 [3419826]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.GotItTooltip.<init>(GotItTooltip.kt:94)
+2024-11-22 20:19:20,612 [4258176]   WARN - #c.i.l.j.s.JSLanguageServiceQueue - com.intellij.lang.typescript.compiler.languageService.protocol.TypeScriptServiceStandardOutputProtocol Expected json answer: Content-Length: 76
+
+2024-11-22 20:19:20,612 [4258176]   WARN - #c.i.l.j.s.JSLanguageServiceQueue - com.intellij.lang.typescript.compiler.languageService.protocol.TypeScriptServiceStandardOutputProtocol Expected json answer: 
+
+2024-11-22 20:19:20,628 [4258192]   WARN - #c.i.l.j.s.JSLanguageServiceQueue - com.intellij.lang.typescript.compiler.languageService.protocol.TypeScriptServiceStandardOutputProtocol Expected json answer: Content-Length: 76
+
+2024-11-22 20:19:20,628 [4258192]   WARN - #c.i.l.j.s.JSLanguageServiceQueue - com.intellij.lang.typescript.compiler.languageService.protocol.TypeScriptServiceStandardOutputProtocol Expected json answer: 
+
+2024-11-22 20:19:20,818 [4258382]   WARN - #c.i.l.j.s.JSLanguageServiceQueue - com.intellij.lang.typescript.compiler.languageService.protocol.TypeScriptServiceStandardOutputProtocol Expected json answer: Content-Length: 76
+
+2024-11-22 20:19:20,818 [4258382]   WARN - #c.i.l.j.s.JSLanguageServiceQueue - com.intellij.lang.typescript.compiler.languageService.protocol.TypeScriptServiceStandardOutputProtocol Expected json answer: 
+
+2024-11-22 20:28:39,200 [4816764]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - 2024-11-22 12:28:39.200141 [flcc_grpc_inference_service.cpp:131:init_log_probs] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2024-11-22 20:45:19,299 [5816863]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - 2024-11-22 12:45:19.299421 [flcc_grpc_inference_service.cpp:131:init_log_probs] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2024-11-22 20:59:43,018 [6680582]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - 2024-11-22 12:59:43.18777 [flcc_grpc_inference_service.cpp:131:init_log_probs] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2024-11-22 21:03:33,604 [6911168]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - 2024-11-22 13:03:33.604540 [flcc_grpc_inference_service.cpp:131:init_log_probs] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2024-11-22 21:04:52,681 [6990245]   WARN - #c.i.l.FlexAdapter - org.intellij.plugins.postcss.lexer._PostCssLexer
+java.lang.Error: Error: could not match input
+	at org.intellij.plugins.postcss.lexer._PostCssLexer.zzScanError(_PostCssLexer.java:1052)
+	at org.intellij.plugins.postcss.lexer._PostCssLexer.advance(_PostCssLexer.java:1584)
+	at com.intellij.lexer.FlexAdapter.locateToken(FlexAdapter.java:92)
+	at com.intellij.lexer.FlexAdapter.getTokenType(FlexAdapter.java:52)
+	at com.intellij.lexer.MergingLexerAdapterBase.locateToken(MergingLexerAdapterBase.java:61)
+	at com.intellij.lexer.MergingLexerAdapterBase.getTokenType(MergingLexerAdapterBase.java:34)
+	at com.intellij.psi.css.impl.util.CssHighlighterLexer.getTokenType(CssHighlighterLexer.java:247)
+	at org.intellij.plugins.postcss.lexer.PostCssHighlightingLexer.getTokenType(PostCssHighlightingLexer.java:52)
+	at com.intellij.lexer.HtmlLexer.tryCreateEmbeddedLexer(HtmlLexer.java:211)
+	at com.intellij.lexer.HtmlLexer.advance(HtmlLexer.java:78)
+	at com.intellij.openapi.editor.ex.util.ValidatingLexerWrapper.advance(ValidatingLexerWrapper.java:73)
+	at com.intellij.openapi.editor.ex.util.LexerEditorHighlighter.getLexerWrapper(LexerEditorHighlighter.java:563)
+	at com.intellij.openapi.editor.ex.util.LexerEditorHighlighter.getTokenType(LexerEditorHighlighter.java:570)
+	at com.intellij.openapi.editor.ex.util.LexerEditorHighlighter.getAttributesForPreviousAndTypedChars(LexerEditorHighlighter.java:494)
+	at com.intellij.openapi.editor.impl.ImmediatePainter.paintImmediately(ImmediatePainter.java:145)
+	at com.intellij.openapi.editor.impl.ImmediatePainter.paint(ImmediatePainter.java:83)
+	at com.intellij.openapi.editor.impl.EditorImpl.processKeyTypedImmediately(EditorImpl.java:1394)
+	at com.intellij.openapi.editor.impl.EditorImpl.processKeyTyped(EditorImpl.java:1378)
+	at com.intellij.openapi.editor.impl.EditorImpl.processKeyTyped(EditorImpl.java:3777)
+	at com.intellij.openapi.editor.impl.EditorImpl$6.keyTyped(EditorImpl.java:1216)
+	at java.desktop/java.awt.AWTEventMulticaster.keyTyped(AWTEventMulticaster.java:247)
+	at java.desktop/java.awt.AWTEventMulticaster.keyTyped(AWTEventMulticaster.java:247)
+	at java.desktop/java.awt.AWTEventMulticaster.keyTyped(AWTEventMulticaster.java:247)
+	at java.desktop/java.awt.AWTEventMulticaster.keyTyped(AWTEventMulticaster.java:247)
+	at java.desktop/java.awt.Component.processKeyEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2901)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6439)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5032)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4860)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1954)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:886)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1162)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1023)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:849)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent$lambda$1(IdeKeyboardFocusManager.kt:48)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent$lambda$2(IdeKeyboardFocusManager.kt:54)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$3(IdeEventQueue.kt:1054)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:109)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1054)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent(IdeKeyboardFocusManager.kt:54)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4909)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2810)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4860)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:783)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:755)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:753)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:752)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:675)
+	at com.intellij.ide.IdeEventQueue.dispatchKeyEvent(IdeEventQueue.kt:609)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$22(IdeEventQueue.kt:565)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:128)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:565)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$18$lambda$17$lambda$16$lambda$15(IdeEventQueue.kt:355)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:857)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$18$lambda$17$lambda$16(IdeEventQueue.kt:354)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$2$lambda$1(IdeEventQueue.kt:1045)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:128)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:916)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$2(IdeEventQueue.kt:1045)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$3(IdeEventQueue.kt:1054)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:117)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1054)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$18(IdeEventQueue.kt:349)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:395)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2024-11-22 21:04:52,683 [6990247] SEVERE - #c.i.m.i.c.i.i.MLCompletionHighlighterUtils - Discontinuous sequence of tokens is generated by lexer: org.jetbrains.vuejs.lang.html.lexer.VueLexer [Plugin: org.jetbrains.plugins.vue]
+com.intellij.diagnostic.PluginException: Discontinuous sequence of tokens is generated by lexer: org.jetbrains.vuejs.lang.html.lexer.VueLexer [Plugin: org.jetbrains.plugins.vue]
+	at com.intellij.diagnostic.PluginProblemReporterImpl.createPluginExceptionByClass(PluginProblemReporterImpl.java:23)
+	at com.intellij.diagnostic.PluginException.createByClass(PluginException.java:90)
+	at com.intellij.openapi.editor.ex.util.ValidatingLexerWrapper.throwException(ValidatingLexerWrapper.java:126)
+	at com.intellij.openapi.editor.ex.util.ValidatingLexerWrapper.advance(ValidatingLexerWrapper.java:94)
+	at com.intellij.openapi.editor.ex.util.LexerEditorHighlighter.getLexerWrapper(LexerEditorHighlighter.java:563)
+	at com.intellij.openapi.editor.ex.util.LexerEditorHighlighter.getAttributesFor(LexerEditorHighlighter.java:594)
+	at com.intellij.ml.inline.completion.impl.inline.MLCompletionHighlighterUtils.highlight(MLCompletionHighlighterUtils.kt:48)
+	at com.intellij.ml.inline.completion.impl.inline.MLCompletionInlineCompletionUtils.getInlineCompletionElements$lambda$2(MLCompletionInlineCompletionUtils.kt:66)
+	at com.intellij.openapi.application.rw.InternalReadAction.insideReadAction(InternalReadAction.kt:114)
+	at com.intellij.openapi.application.rw.InternalReadAction.tryReadCancellable$lambda$4(InternalReadAction.kt:104)
+	at com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal$lambda$3$lambda$2$lambda$1(cancellableReadAction.kt:32)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.tryRunReadAction(AnyThreadWriteThreadingSupport.kt:351)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:971)
+	at com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal$lambda$3$lambda$2(cancellableReadAction.kt:30)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:66)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:157)
+	at com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal(cancellableReadAction.kt:28)
+	at com.intellij.openapi.application.rw.InternalReadAction.tryReadCancellable(InternalReadAction.kt:103)
+	at com.intellij.openapi.application.rw.InternalReadAction.tryReadAction(InternalReadAction.kt:87)
+	at com.intellij.openapi.application.rw.InternalReadAction.readLoop(InternalReadAction.kt:74)
+	at com.intellij.openapi.application.rw.InternalReadAction.access$readLoop(InternalReadAction.kt:16)
+	at com.intellij.openapi.application.rw.InternalReadAction$runReadAction$6.invokeSuspend(InternalReadAction.kt:53)
+	at com.intellij.openapi.application.rw.InternalReadAction$runReadAction$6.invoke(InternalReadAction.kt)
+	at com.intellij.openapi.application.rw.InternalReadAction$runReadAction$6.invoke(InternalReadAction.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:62)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:163)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.openapi.application.rw.InternalReadAction.runReadAction(InternalReadAction.kt:49)
+	at com.intellij.openapi.application.rw.PlatformReadWriteActionSupport.executeReadAction(PlatformReadWriteActionSupport.kt:38)
+	at com.intellij.openapi.application.ReadWriteActionSupport.executeReadAction$default(ReadWriteActionSupport.kt:15)
+	at com.intellij.openapi.application.CoroutinesKt.constrainedReadAction(coroutines.kt:62)
+	at com.intellij.openapi.application.CoroutinesKt.readAction(coroutines.kt:29)
+	at com.intellij.ml.inline.completion.impl.inline.MLCompletionInlineCompletionUtils.getInlineCompletionElements(MLCompletionInlineCompletionUtils.kt:66)
+	at com.intellij.ml.inline.completion.impl.inline.MLCompletionInlineCompletionUtils.toSuggestion(MLCompletionInlineCompletionUtils.kt:38)
+	at com.intellij.ml.inline.completion.impl.inline.MLInlineCompletionProvider.checkUxCompatibilityAndGetSuggestion(MLInlineCompletionProvider.kt:87)
+	at org.jetbrains.completion.full.line.platform.inline.FullLineInlineCompletionProvider.getSuggestionDebounced(FullLineInlineCompletionProvider.kt:97)
+	at org.jetbrains.completion.full.line.platform.inline.FullLineInlineCompletionProvider$getSuggestionDebounced$1.invokeSuspend(FullLineInlineCompletionProvider.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+2024-11-22 21:04:52,687 [6990251] SEVERE - #c.i.m.i.c.i.i.MLCompletionHighlighterUtils - WebStorm 2024.3  Build #WS-243.21565.180
+2024-11-22 21:04:52,687 [6990251] SEVERE - #c.i.m.i.c.i.i.MLCompletionHighlighterUtils - JDK: 21.0.5; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2024-11-22 21:04:52,687 [6990251] SEVERE - #c.i.m.i.c.i.i.MLCompletionHighlighterUtils - OS: Linux
+2024-11-22 21:04:52,687 [6990251] SEVERE - #c.i.m.i.c.i.i.MLCompletionHighlighterUtils - Last Action: EditorEnter
+2024-11-22 21:04:52,689 [6990253] SEVERE - #c.i.o.e.i.ImmediatePainter - Error calculating attributes, highlighter: com.intellij.openapi.editor.ex.util.LexerEditorHighlighter(org.jetbrains.vuejs.lang.html.lexer.VueLexer): '<script setup lang="ts">
+  import {ref} from 'vue'
+
+  const codeList = ref([
+    {
+      code: '',
+      type: 'Vue组件'
+    }
+  ])
+
+</script>
+
+<template>
+  <section>
+    <!--TODO: 标签栏，管理各个VUE组件缓存-->
+    <h1>- VUE2组件分析 -</h1>
+    <div class="scroll-container">
+      <!--输入框，1+n，某个VUE组件以及相关的子组件、utils、api等-->
+      <div class="block-container">
+        <h3>组件代码</h3>
+        <a-form>
+          <a-form-item class="line-element" v-for="(item, index) in codeList">
+            <a-textarea v-model:value="item.code" :key="index"/>
+            <div class="line-footer">{{ item.type }}</div>
+          </a-form-item>
+          <a-button class="line-element" style="width: 100%" type="primary" ghost>增加代码块</a-button>
+          <a-button class="line-element" style="width: 100%" type="primary">开始分析</a-button>
+        </a-form>
+      </div>
+      <!--操作链路-->
+      <div class="block-container">
+        <h3>视图链路</h3>
+      </div>
+      <!--树整体分析-->
+      <div class="block-container">
+        <h3>总体复杂度</h3>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style scoped>
+  h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+    height: 36px;
+    margin-top: 8px;
+    ma
+  }
+  .scroll-container {
+    width: 100%;
+    height: calc(100vh - 44px);
+    overflow-y: auto;
+
+    .block-container {
+      margin: 8px;
+      min-height: 32px;
+      background-color: #eeeeeeaa;
+      border-radius: 8px;
+      box-shadow: 4px 4px 4px #00000033;
+      backdrop-filter: blur(8px);
+      display: flex;
+      flex-direction: column;
+      padding: 12px 8px;
+      .line-element {
+        margin: 4px 0;
+        .line-footer {
+          color: #666666;
+          margin: 4px 0;
+          width: 100%;
+          text-align: end;
+        }
+      }
+    }
+  }
+
+</style>', offset: 1251, document length1834, highlighter's last offset:1834
+java.lang.RuntimeException: Error calculating attributes, highlighter: com.intellij.openapi.editor.ex.util.LexerEditorHighlighter(org.jetbrains.vuejs.lang.html.lexer.VueLexer): '<script setup lang="ts">
+  import {ref} from 'vue'
+
+  const codeList = ref([
+    {
+      code: '',
+      type: 'Vue组件'
+    }
+  ])
+
+</script>
+
+<template>
+  <section>
+    <!--TODO: 标签栏，管理各个VUE组件缓存-->
+    <h1>- VUE2组件分析 -</h1>
+    <div class="scroll-container">
+      <!--输入框，1+n，某个VUE组件以及相关的子组件、utils、api等-->
+      <div class="block-container">
+        <h3>组件代码</h3>
+        <a-form>
+          <a-form-item class="line-element" v-for="(item, index) in codeList">
+            <a-textarea v-model:value="item.code" :key="index"/>
+            <div class="line-footer">{{ item.type }}</div>
+          </a-form-item>
+          <a-button class="line-element" style="width: 100%" type="primary" ghost>增加代码块</a-button>
+          <a-button class="line-element" style="width: 100%" type="primary">开始分析</a-button>
+        </a-form>
+      </div>
+      <!--操作链路-->
+      <div class="block-container">
+        <h3>视图链路</h3>
+      </div>
+      <!--树整体分析-->
+      <div class="block-container">
+        <h3>总体复杂度</h3>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style scoped>
+  h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+    height: 36px;
+    margin-top: 8px;
+    ma
+  }
+  .scroll-container {
+    width: 100%;
+    height: calc(100vh - 44px);
+    overflow-y: auto;
+
+    .block-container {
+      margin: 8px;
+      min-height: 32px;
+      background-color: #eeeeeeaa;
+      border-radius: 8px;
+      box-shadow: 4px 4px 4px #00000033;
+      backdrop-filter: blur(8px);
+      display: flex;
+      flex-direction: column;
+      padding: 12px 8px;
+      .line-element {
+        margin: 4px 0;
+        .line-footer {
+          color: #666666;
+          margin: 4px 0;
+          width: 100%;
+          text-align: end;
+        }
+      }
+    }
+  }
+
+</style>', offset: 1251, document length1834, highlighter's last offset:1834
+	at com.intellij.openapi.editor.impl.ImmediatePainter.paintImmediately(ImmediatePainter.java:149)
+	at com.intellij.openapi.editor.impl.ImmediatePainter.paint(ImmediatePainter.java:83)
+	at com.intellij.openapi.editor.impl.EditorImpl.processKeyTypedImmediately(EditorImpl.java:1394)
+	at com.intellij.openapi.editor.impl.EditorImpl.processKeyTyped(EditorImpl.java:1378)
+	at com.intellij.openapi.editor.impl.EditorImpl.processKeyTyped(EditorImpl.java:3777)
+	at com.intellij.openapi.editor.impl.EditorImpl$6.keyTyped(EditorImpl.java:1216)
+	at java.desktop/java.awt.AWTEventMulticaster.keyTyped(AWTEventMulticaster.java:247)
+	at java.desktop/java.awt.AWTEventMulticaster.keyTyped(AWTEventMulticaster.java:247)
+	at java.desktop/java.awt.AWTEventMulticaster.keyTyped(AWTEventMulticaster.java:247)
+	at java.desktop/java.awt.AWTEventMulticaster.keyTyped(AWTEventMulticaster.java:247)
+	at java.desktop/java.awt.Component.processKeyEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2901)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6439)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5032)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4860)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1954)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:886)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1162)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1023)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:849)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent$lambda$1(IdeKeyboardFocusManager.kt:48)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent$lambda$2(IdeKeyboardFocusManager.kt:54)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$3(IdeEventQueue.kt:1054)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:109)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1054)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent(IdeKeyboardFocusManager.kt:54)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4909)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2810)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4860)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:783)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:755)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:753)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:752)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:675)
+	at com.intellij.ide.IdeEventQueue.dispatchKeyEvent(IdeEventQueue.kt:609)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$22(IdeEventQueue.kt:565)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:128)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:565)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$18$lambda$17$lambda$16$lambda$15(IdeEventQueue.kt:355)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:857)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$18$lambda$17$lambda$16(IdeEventQueue.kt:354)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$2$lambda$1(IdeEventQueue.kt:1045)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.runWriteIntentReadAction(AnyThreadWriteThreadingSupport.kt:128)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:916)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$2(IdeEventQueue.kt:1045)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$3(IdeEventQueue.kt:1054)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:117)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1054)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$18(IdeEventQueue.kt:349)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:395)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+Caused by: com.intellij.diagnostic.PluginException: Discontinuous sequence of tokens is generated by lexer: org.jetbrains.vuejs.lang.html.lexer.VueLexer [Plugin: org.jetbrains.plugins.vue]
+	at com.intellij.diagnostic.PluginProblemReporterImpl.createPluginExceptionByClass(PluginProblemReporterImpl.java:23)
+	at com.intellij.diagnostic.PluginException.createByClass(PluginException.java:90)
+	at com.intellij.openapi.editor.ex.util.ValidatingLexerWrapper.throwException(ValidatingLexerWrapper.java:126)
+	at com.intellij.openapi.editor.ex.util.ValidatingLexerWrapper.advance(ValidatingLexerWrapper.java:94)
+	at com.intellij.openapi.editor.ex.util.LexerEditorHighlighter.getLexerWrapper(LexerEditorHighlighter.java:563)
+	at com.intellij.openapi.editor.ex.util.LexerEditorHighlighter.getTokenType(LexerEditorHighlighter.java:570)
+	at com.intellij.openapi.editor.ex.util.LexerEditorHighlighter.getAttributesForPreviousAndTypedChars(LexerEditorHighlighter.java:494)
+	at com.intellij.openapi.editor.impl.ImmediatePainter.paintImmediately(ImmediatePainter.java:145)
+	... 68 more
+2024-11-22 21:04:52,694 [6990258] SEVERE - #c.i.o.e.i.ImmediatePainter - WebStorm 2024.3  Build #WS-243.21565.180
+2024-11-22 21:04:52,694 [6990258] SEVERE - #c.i.o.e.i.ImmediatePainter - JDK: 21.0.5; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2024-11-22 21:04:52,694 [6990258] SEVERE - #c.i.o.e.i.ImmediatePainter - OS: Linux
+2024-11-22 21:04:52,694 [6990258] SEVERE - #c.i.o.e.i.ImmediatePainter - Last Action: EditorEnter
+2024-11-22 21:06:37,922 [7095486]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - 2024-11-22 13:06:37.922421 [flcc_grpc_inference_service.cpp:131:init_log_probs] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2024-11-22 21:10:09,115 [7306679]   WARN - #c.i.u.Alarm - Do not create alarm without coroutineScope: com.intellij.ui.ColorPicker$6.<init>(ColorPicker.java:437)
+2024-11-22 21:14:08,116 [7545680]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - 2024-11-22 13:14:08.116815 [flcc_grpc_inference_service.cpp:131:init_log_probs] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2024-11-22 21:14:45,417 [7582981]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - 2024-11-22 13:14:45.417926 [flcc_grpc_inference_service.cpp:131:init_log_probs] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2024-11-22 21:18:52,478 [7830042]   WARN - #o.j.c.f.l.p.d.a.n.NativeServerDiagnostic$Companion - 2024-11-22 13:18:52.477789 [flcc_grpc_inference_service.cpp:131:init_log_probs] call ended, got an exception 'std::future_error: Broken promise' during execution
+
